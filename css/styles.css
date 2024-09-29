@@ -204,7 +204,7 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404BBF;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -270,7 +270,6 @@ address{
     padding: 188px 0;
         max-width: 1440px;
         min-height: 600px;
-        background-color: rgba(46, 47, 66, 0.70);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -495,7 +494,9 @@ address{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link:hover,
+.socials-link:hover{
+    background-color: #404bbf;
+}
 .socials-link:focus {
     background-color: #404bbf;
 }
@@ -551,7 +552,9 @@ address{
 
 }
 .portfolio-item:hover {
-    box-shadow: 0px 4px 10px rgba(46, 47, 66, 0.1), 0px 2px 4px rgba(46, 47, 66, 0.2);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-caption {
